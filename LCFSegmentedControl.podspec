@@ -7,12 +7,12 @@
 #
 Pod::Spec.new do |s|
   s.name         = "LCFSegmentedControl"
-  s.version      = "1.0."
+  s.version      = "1.0.1"
   s.summary      = "A drop-in replacement for UISegmentedControl mimicking the style of the one in Google Currents and various other Google products."
   s.homepage     = "https://github.com/lixianshen/LCFSegmentedControl"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "WLee" => "810646506@qq.com" }
-  s.source       = { :git => "https://github.com/lixianshen/LCFSegmentedControl.git", :tag => "v1.0.0" }
+  s.source       = { :git => "https://github.com/lixianshen/LCFSegmentedControl.git", :tag => "v1.0.1" }
   s.platform     = :ios, '8.0'
   s.requires_arc = true
   s.source_files = 'LCFSegmentedControl/*.{h,m}'
